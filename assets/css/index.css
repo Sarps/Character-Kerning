@@ -1,0 +1,28 @@
+.row {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+	margin-left: 12px !important;
+	margin-right: 12px !important;
+}
+
+div[state] {
+	border: 1px solid black;
+	height: 6.25vw;
+}
+
+input {
+	text-transform: uppercase;
+}
+
+div {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+[state="0"] {
+	background-color: red;
+}
+
+[state="1"] {
+	background-color: transparent;
+}
